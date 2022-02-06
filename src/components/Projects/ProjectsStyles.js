@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Img = styled.img`
   width:100%;
   height:100%;
+  border-radius: 10px;
   object-fit: cover;
   overflow: hidden;
 `
@@ -14,6 +15,7 @@ padding: 3rem;
 place-items: center;
 column-gap: 2rem;
 row-gap: 3rem;
+border-radius: 10px;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
@@ -24,7 +26,7 @@ row-gap: 3rem;
 `
 export const BlogCard = styled.div`
   border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  box-shadow: 3px 3px 20px hsl(216, 50%, 16%);
   text-align: center;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {

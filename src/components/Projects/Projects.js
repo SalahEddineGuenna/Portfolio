@@ -37,6 +37,7 @@ const Projects = () => (
           <CardInfo>
             {description}
           </CardInfo>
+          <br/>
           <div>
             <TitleContent>Stack</TitleContent>
             <TagList>
